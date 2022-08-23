@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: #050a30;
   --secondary-color: #f9f7fd;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -35,7 +35,6 @@ p {
 }
 
 .hero {
-  background-color: #f9f7fe;
   text-align: center;
   padding: 80px 40px;
 }
@@ -69,7 +68,8 @@ p {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 96px 60px;
+  background-color: var(--secondary-color);
 }
 
 .content-container {
